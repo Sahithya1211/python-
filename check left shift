@@ -1,0 +1,5 @@
+class solution:
+    def checkkbit(self,n,k):
+        if((n&(1<<k))==0):
+            return false
+        return true
